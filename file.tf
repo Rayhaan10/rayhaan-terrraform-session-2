@@ -9,4 +9,5 @@ terraform {
 
 resource "random_pet" "rayray" {
   prefix = var.prefix
+  count  = 3
 }
